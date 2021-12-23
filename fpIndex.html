@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/fpStyles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Need 3 boxs on top right where the prices will go, when you click on the boxs, the API is called and populates the box
+    Need boxes on main page, these can be "NFTs"
+    Each "NFT" will have a frame and a cost in USD amount but the price will populate with USD/token price when you select a token
+    Stretch goal is to search for token name and have it populate the price in that token currency vs. having buttons you click
+        Would need form for this
+    Stretch goal is you click into each "NFT" to make it bigger -->
+<div class="all">
+<div class="topBar">                    
+    <div class="logo">
+    <img src="/styles/Images/Screen Shot 2021-12-20 at 7.39.04 PM.png">
+</div>
+    <div class="title" >
+        <p>NFT Price Converter</p>
+    </div>
+</div>
+
+<div class= "gap"></div>
+<div class="upperbar">
+    <div class="buttonBox">
+        <div class="BTitle">Select Currency</div>
+        <div class="subtitle">NFTs will be priced in the selected currency</div>
+<button id='USD'>USD</button>        
+<button id='Bitcoin'>BTC</button>
+<button id='Ethereum'>ETH</button>
+</div>
+</div>
+<div class= "gap2">
+
+</div>
+<div class="maincontent">
+    <div class="nfts">
+            <div id="nft1"class='box'>
+                <div class="NFTTitle">Crypto Queens to the Moon</div>
+                <div class="frame">
+                <video class="video" controls src='/styles/Images/yatmine copy.mp4'></video>
+                </div>
+                <div id='bottom1' class='bottom'>
+                    <p>Price:</p>
+                <div id='price1' class='price'></div>
+            </div>
+            </div>
+
+            <div id="nft2" class='box'>
+                <div class="NFTTitle">Onyx Rox #48</div>
+                <div class="frame">
+                <img src='/styles/Images/Onyxrox 2.png'>
+                </div>
+                <div id='bottom2' class='bottom'>
+                    <p>Price:</p>
+                <div id='price2' class='price'></div>
+            </div>
+            </div>
+
+            <div id="nft3" class='box'>
+                <div class="NFTTitle">Green</div> 
+                <div class="frame">
+                    <img src='/styles/Images/2B90C4C0-882F-4C83-94DC-BA39869CFEE1_1_105_c.jpeg'>
+                </div>
+                <div id='bottom3' class='bottom'>
+                    <p>Price:</p>
+                <div id='price3'class='price'></div>
+            </div>
+            </div>
+
+            <div id="nft4" class='box'>
+                <div class="NFTTitle">Death Valley</div> 
+                <div class="frame">
+                <img src='/styles/Images/111C9D83-3509-4106-8E1F-1B76C5F4CE91_1_105_c.jpeg'>
+                </div>
+                <div id='bottom4' class='bottom'>
+                    <p>Price:</p>
+                <div id='price4' class='price'></div>
+            </div>
+            </div>
+
+            <div id="nft5" class='box'>
+                <div class="NFTTitle">Red Rocks</div> 
+                <div class="frame">
+                <img src='/styles/Images/2D32B04A-BA69-4877-BCC8-3DE701478D6B_1_105_c.jpeg'>
+                </div>
+                <div id='bottom5' class='bottom'>
+                    <p>Price:</p>
+                <div id='price5' class='price'></div>
+            </div>
+            </div>
+
+            <div id="nft6" class='box'>
+                <div class="NFTTitle">Pine</div> 
+                <div class="frame">
+                <img src='/styles/Images/34023842-1D41-4577-8AF9-B74D2F406D6A_1_105_c.jpeg'>
+                </div>
+                <div id='bottom6' class='bottom'>
+                    <p>Price:</p>
+                <div id='price6' class='price'></div>
+            </div>
+            </div>
+
+            <div id="nft7" class='box'>
+                <div class="NFTTitle">Flower</div> 
+                <div class="frame">
+                <img src='/styles/Images/AC10BCA2-72DC-482A-9AD4-C3D8E8186066_1_105_c.jpeg'>
+                </div>
+                <div id='bottom7' class='bottom'>
+                    <p>Price:</p>
+                <div id='price7' class='price'></div>
+            </div>
+            </div>
+
+            <div id="nft8" class='box'>
+                <div class="NFTTitle">A.C.C.C.</div> 
+                <div class="frame">
+                <img src='/styles/Images/aliltest-2021-logo-1637014111664.png'>
+                </div>
+                <div id='bottom8' class='bottom'>
+                    <p>Price:</p>
+                <div id='price8' class='price'></div>
+            </div>
+            </div>
+
+            <div id="nft9" class='box'>
+                <div class="NFTTitle">Water</div> 
+                <div class="frame">
+                <img src='/styles/Images/CB312C6C-F1FB-4A1D-8F55-78C4DF0DF76F_1_105_c.jpeg'>
+                </div>
+                <div id='bottom9' class='bottom'>
+                    <p>Price:</p>
+                <div id='price9' class='price'></div>
+            </div>
+            </div>
+
+        </div>
+    
+</div>
+
+
+
+</div>
+    <script src="fpScript.js"></script>
+</body>
+</html>
